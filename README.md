@@ -3,6 +3,12 @@ only for test
 
 # 目标拆解
 
+## 应付检查
+1. 制作webUI  
+    - streamlit
+2. 转 ONNX -> tensorrt  
+    - torch.onnx.export
+
 ## 提升检测准确率
 1. 新的噪声模型
 2. 鲁棒性更好的模型
